@@ -1,8 +1,8 @@
 IsRebar3 = erlang:function_exported(rebar3, main, 1),
 
 Rebar2Deps0 = [{idna, ".*",
-               {git, "https://github.com/benoitc/erlang-idna",
-                {tag, "5.1.0"}}},
+               {git, "https://github.com/drumanew/erlang-idna",
+                {branch, "master"}}},
 
                {mimerl, ".*",
                 {git, "https://github.com/benoitc/mimerl",
